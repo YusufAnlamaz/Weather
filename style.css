@@ -1,86 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-*{
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background: url(images/engin-akyurt-zlGobrmAuyE-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+
+.sunny {
+  background: url(images/engin-akyurt-zlGobrmAuyE-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-h1{
-    color: #fff;
-    text-align: center;
-    font-size: 4rem;
-    margin-top: 70px;
+.rainy {
+  background: url(images/yağmur.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-.btnDiv, .form{
-    display: flex;
-    justify-content: center;
-    margin: 50px;
+.cloudy {
+  background: url(images/bulut.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-.btn{
-    width: 200px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    border: 1px solid #fff;
-    background: #ffffff4b;
-    color: #fff;
-    cursor: pointer;
-    padding: 4px;
-    outline: none;
+.snowy {
+  background: url(images/kar.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-.btn:hover{
-    box-shadow: rgba(246, 245, 245, 0.56) 0px 22px 70px 4px;
-    transition: .5s;
-    scale: 1.1;
-    background:  rgba(4, 86, 169, 0.718);
+.foggy {
+  background: url(images/sisli-hava.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-.inputText{
-    width: 500px;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    outline: none;
-    font-size: 20px;
-    border-bottom: 2px solid blue;
-    text-align: center;
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 70px;
 }
-.info{
-    text-align: center;
-    font-size: 20px;
+.btnDiv,
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
 }
-.info p{
-    margin-top: 20px;
+.btn {
+  width: 200px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: #ffffff4b;
+  color: #fff;
+  cursor: pointer;
+  padding: 4px;
+  outline: none;
 }
-.temp{
-    font-size: 50px;
+.btn:hover {
+  box-shadow: rgba(246, 245, 245, 0.56) 0px 22px 70px 4px;
+  transition: 0.5s;
+  scale: 1.1;
+  background: rgba(4, 86, 169, 0.718);
 }
-.weatherInfo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+.inputText {
+  width: 500px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  border-bottom: 2px solid blue;
+  text-align: center;
 }
-.weatherInfo p{
-    margin-top: 0px;
+.info {
+  text-align: center;
+  font-size: 20px;
 }
-.weather{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+.info p {
+  margin-top: 20px;
 }
-.weather{
-    text-transform: capitalize;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
+.temp {
+  font-size: 50px;
 }
-.feeling{
-    text-align: center;
-    margin-top: 12px;
+.weatherInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.weatherInfo p {
+  margin-top: 0px;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.weather {
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.feeling {
+  text-align: center;
+  margin-top: 12px;
 }
